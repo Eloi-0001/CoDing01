@@ -1,6 +1,6 @@
 # CoDing01
 
-#resumo da aula passada "(04/09/2024)"
+## resumo da aula passada "(04/09/2024)"
 
 - na aula passada, nós criamos e personalizamos nossas contas no github.
 no caso, começamos primeiro criando uma conta, no meu caso, loguei com minha conta google, já que seria mais eficiente a longo prazo pois minha conta senac (que muitas pessoas logaram) iria sumir após a finalização do curso,
