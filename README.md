@@ -9,4 +9,4 @@ adicionei uma senha de meu agrado e segui.
  - o proximo passo foi criar um novo repositorio chamado "coding01", além acabamos importando dois arquivos chamados, "package-lock.json" e "package-.json".
 
  - finalizando a aula, aprendemos a personalizar o nosso perfil, com base em desings compartilhados pelo Dudux (um usuario do github), cada auluno adpatou o perfiu da sua propria maneira e preferencia.
-no meu caso, fiz uma breve apresentação, com meu nome e minha cidade de origem, os cursos que estava fazendo, minhas pretenções para o futuro e alguns gifs que revelam discretamente meus gostos particulares além de dar um charme a mais.
+no meu caso, fiz uma breve apresentação, com meu nome e minha cidade de origem, os cursos que estava fazendo, minhas pretenções para o futuro e alguns gifs que revelam discretamente meus gostos particulares além de dar um charme a mais. 
