@@ -1,0 +1,15 @@
+{
+  "name": "coding01",
+  "version": "1.0.0",
+  "description": "- aprendenmos o basico sobre variaveis em JavaScript.\r - aprendemos tipos de variaveis:\r   - String\r   - Int\r   - Float\r   - Booleans",
+  "main": "atividade.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^22.9.0"
+  }
+}
