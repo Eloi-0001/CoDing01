@@ -1,4 +1,6 @@
- /* suaMae = ("Mae")
+var prompt = require('prompt-sync')();
+
+/* suaMae = ("Mae")
  maeDe = ("de")
  meuMano = ("patu")
 
@@ -25,7 +27,6 @@ console.log(`hello ${myName2}`)
 console.log( 2 === 3)*/
 
 /*
- var prompt = require('prompt-sync')();
 
  let nome = prompt("Qual o seu nome?")
  let idade = prompt("E sua idade?")
@@ -91,3 +92,4 @@ console.log( 2 === 3)*/
 else { 
     console.log("PUOM PUOM PUOOOOMMMM")
 } 
+
