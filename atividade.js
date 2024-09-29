@@ -106,10 +106,11 @@ console.log(`seu valor a ser pago é ${impostoRenda}R$`);
 
  let preco = parseFloat(prompt('Valor do produto é?'))
      let precoD = parseFloat(prompt('Valor do desconto é?'))
+
+*/
+
  let cedula = prompt("Entre euro, dolar e dolar canadense, qual cedula você deseja converter?").toLowerCase()
    /* Pedro Ayres me ajudou com toLowerCase*/
- 
- console.log(cedula)
  
   if (cedula == "euro") {
  
