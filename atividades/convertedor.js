@@ -4,7 +4,6 @@ var prompt = require('prompt-sync')();
 let cedula = prompt("Entre euro, dolar e dolar canadense, qual cedula você deseja converter?").toLowerCase()
 
 
-console.log(cedula)
 
  if (cedula == "euro") {
 
