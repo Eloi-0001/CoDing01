@@ -36,4 +36,4 @@ else {
    console.log('lamento, mas não consigo converter esse tipo de cedula ainda. S2')
 
 }
-   
+
