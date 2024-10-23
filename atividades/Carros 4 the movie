@@ -1,0 +1,41 @@
+const carros =
+[
+'Fusca ',
+'Civic ',
+'Corolla ',
+'Mustang ',
+'Onix'
+];
+
+console.log(`Olá cliente!!, nós temos esses carros ${carros}`)
+
+const escolha = prompt('Você deseja deletar algum objeto da lista?')
+
+if (escolha == 'sim')
+  {
+    const escolhaObj = prompt(parseFloat('qual objeto você quer alterar?'))
+   const removerObj = prompt(parseFloat('qual objeto você deseja remover?'))
+   const novoCarro = prompt ('novo carro')
+   
+  const atualizandoCarro = carros.splice(escolhaObj, removerObj, novoCarro)
+  
+  const numeroCarros = carros.length;
+
+console.log(`São ao todo ${numeroCarros} carros!, sendo que ${novoCarro} foi adicionado recentimente ao estoque S2`)
+
+  }
+
+else 
+{
+  const novoCarro2 = prompt ('novo carro')
+  const atualizandoCarro = carros.splice(escolhaObj, 0, novoCarro2)
+  
+  const numeroCarros = carros.length;
+
+console.log(`São ao todo ${numeroCarros} carros!, sendo que ${novoCarro2} foi adicionado recentimente ao estoque S2`)
+
+}
+
+
+
+
