@@ -1,16 +1,20 @@
 console.clear();
+
+/** @typedef {string | null} respostaPrompt */
+
+/** @type {string[]} */
 const carros = ["Fusca ", "Civic ", "Corolla ", "Mustang ", "Onix"];
 
 console.log(`\nOlá cliente!!, nós temos esses carros:\n`); // Insere uma nova linha na tela
 
-// Coloquei um `foreach()` aqui | @Kacaii
 carros.forEach((carro, index) => {
   console.log(`${index}: ${carro}`); // Exibe a lista de carros na tela
 });
 
+/** @type { respostaPrompt } */
 const desejaComprar = prompt(
   "\nVocê deseja comprar algum objeto da lista?\n (Sim ou Não) \n\n>",
-).toLocaleLowerCase();
+);
 
 // HACK: Talvez tenha um jeito melhor de escrever essa funcionalidade (?).
 if (desejaComprar === "sim") {
