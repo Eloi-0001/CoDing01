@@ -61,3 +61,5 @@ if (desejaComprar) {
     `São ao todo ${numeroDeCarros} carros!, sendo que ${novoCarro} foi adicionado recentimente ao estoque S2`,
   );
 }
+
+/* pedro é mutio legal */
