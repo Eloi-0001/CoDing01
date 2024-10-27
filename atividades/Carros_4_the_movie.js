@@ -62,4 +62,4 @@ if (desejaComprar) {
   );
 }
 
-/* pedro é mutio legal */
+/* pedro não é mutio legal */
