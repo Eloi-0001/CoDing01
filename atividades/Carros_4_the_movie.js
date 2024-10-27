@@ -1,65 +1,28 @@
-/** @typedef {string | null} respostaPrompt */
+let idConvertido;
+let trocarCarro;
 
-console.clear();
+const carros = ["Renault Kwid", "Fiat Mobi", "Citroën", "Hyundai HB20"];
+console.log(carros);
 
-/** @type {string[]} */
-const carros = ["Fusca ", "Civic ", "Corolla ", "Mustang ", "Onix"];
+const estruturaCondicional = prompt("Alterar algo na lista?"); // estrutura condicinal para alterar a lista
 
-console.log(`\nOlá cliente!!, nós temos esses carros:\n`); // Insere uma nova linha na tela
+if (estruturaCondicional == "sim") {
+  let removerCarro = prompt("Deseja remover qual item da lista?"); // usuario escolhe se deseja remover algo da lista ou não
+  if (removerCarro == null || removerCarro.trim() === "") {
+    console.log("ERROR");
+  } else {
+    idConvertido = parseInt(removerCarro);
+  }
+  trocarCarro = prompt("Deseja adicionar qual carro a lista?"); // usuario escolhe se deseja alterar a lista ou não
 
-carros.forEach((carro, index) => {
-  console.log(`${index}: ${carro}`); // Exibe a lista de carros na tela
-});
-
-/** @type { boolean } */
-const desejaComprar = confirm(
-  "\nVocê deseja comprar algum objeto da lista? \n\n>",
-);
-
-if (desejaComprar) {
-  /**
-   * Número do carro que o usuario quer alterar.
-   * @type {respostaPrompt} */
-  const escolhaCarro = prompt("qual o numero do carro que você quer alterar?");
-
-  /**
-   * Número do carro que o usuario quer remover.
-   * @type {respostaPrompt} */
-  const removerCarro = prompt("qual o numero do carro você deseja remover?");
-
-  /**
-   * Nome do carro a ser adicionado
-   * @type {respostaPrompt} */
-  const novoCarro = prompt("novo carro");
-
-  // WARN: Variável não usada
-  const atualizandoCarro = carros.splice(escolhaObj, removerObj, novoCarro);
-
-  /**
-   * Número de carros na lista
-   * @type {number} */
-  const numeroCarros = carros.length;
-
-  console.log(
-    `São ao todo ${numeroCarros} carros!, sendo que ${novoCarro} foi adicionado recentimente ao estoque S2`,
-  );
+  if (idConvertido == null) {
+    console.log("ERROR");
+  } else if (trocarCarro == null) {
+    console.log("ERROR");
+  } else {
+    carros.splice(idConvertido, 1, trocarCarro);
+  }
+  console.log(`Otimo!!, essa é a nova lista. \n\n${carros}\n`);
 } else {
-  /**
-   * Nome do carro a ser adicionado
-   * @type {respostaPrompt} */
-  const novoCarro = prompt("novo carro");
-
-  // WARN: Variável não usada
-  const atualizandoCarro = carros.splice(escolhaObj, 0, novoCarro);
-
-  /**
-   * Número de carros na lista
-   * @type {number} */
-  const numeroDeCarros = carros.length;
-
-  console.log(
-    `São ao todo ${numeroDeCarros} carros!, sendo que ${novoCarro} foi adicionado recentimente ao estoque S2`,
-  );
+  console.log(`ok, a lista se mantem igual \n\n${carros}`);
 }
-
-/* pedro não é mutio legal */
