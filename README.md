@@ -34,3 +34,5 @@
 - a professora deu um tempo pra testarmos nossos conhecimentos obtidos até o momento. (falei da mae do meu mano, patu)
 
   ![image](https://github.com/user-attachments/assets/a0212dc5-fc5a-4333-9c24-625b785163e6)
+
+aa
