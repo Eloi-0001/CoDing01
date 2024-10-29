@@ -1,13 +1,20 @@
+console.clear(); // Limpando o console.
+
 let idConvertido;
 let trocarCarro;
 
 const carros = ["Renault Kwid", "Fiat Mobi", "Citroën", "Hyundai HB20"];
-console.log(carros);
 
-const estruturaCondicional = prompt("Alterar algo na lista?"); // estrutura condicinal para alterar a lista
+console.log(carros); // Exibindo a lista de carros no console.
 
-if (estruturaCondicional == "sim") {
-  let removerCarro = prompt("Deseja remover qual item da lista?"); // usuario escolhe se deseja remover algo da lista ou não
+/**
+ * @type {Boolean} */
+const querAlterarAlgo =
+  prompt("Alterar algo na lista?") === "sim" ? true : false; // estrutura condicinal para alterar a lista
+
+if (querAlterarAlgo) {
+  const removerCarro = prompt("Deseja remover qual item da lista?"); // usuario escolhe se deseja remover algo da lista ou não
+
   if (removerCarro == null || removerCarro.trim() === "") {
     console.log("ERROR");
   } else {
